@@ -18,12 +18,6 @@
 			<p>This is my blog homepage. <a href="https://enigmatic-anchorage-24951.herokuapp.com/">Some demos of my projects...</a></p>
     		</div><!-- /.blurb -->
 			
-			<iframe
-				allow="microphone;"
-				width="350"
-				height="430"
-				src="https://console.dialogflow.com/api-client/demo/embedded/aboutmemz">
-			</iframe>
 		</div><!-- /.container -->
 		<footer>
     		<ul>
@@ -31,6 +25,15 @@
 			<li><a href="https://github.com/MengZhou122"><img src="https://img.icons8.com/material-sharp/24/000000/github.png"/></a></li>
         		<li><a href="hhttps://www.linkedin.com/in/mengzhou1126/"><img src="https://img.icons8.com/material-rounded/24/000000/linkedin.png"/></a></li>		
 		</ul>
+			
+		<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+		<df-messenger
+			chat-icon="https://storage.googleapis.com/cloudprod-apiai/9b219809-3d43-4467-93fd-eddac1df67e4_x.png"
+			  intent="WELCOME"
+			  chat-title="AboutMe"
+			  agent-id="bbc1b841-3f78-41d8-8b6d-57a9fc95717c"
+			  language-code="en">
+		</df-messenger>
 		</footer>
 	</body>
 </html>
