@@ -2,6 +2,11 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+nav {
+    margin-bottom: 20px;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -15,6 +20,11 @@ nav ul li, footer ul li {
 .la {
     text-decoration: none;
     color: #999;
+}
+
+.lat {
+    text-decoration: none;
+    color: #333;
 }
 
 a:hover {
@@ -43,4 +53,8 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.bot-card {
+    border-style:none;
 }
