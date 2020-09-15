@@ -59,13 +59,8 @@ ul.posts li {
     border-style:none;
 }
 
-.ml-card{
-    margin-top:50px;
-}
-
 .web-card{
     padding: 5px;
-    margin-top:80px;
 }
 
 .mobile-div{
@@ -75,5 +70,5 @@ ul.posts li {
 
 .mobile-card{
     padding-top:10px;
-    width: 18rem;
+    margin:10px;
 }
