@@ -58,3 +58,22 @@ ul.posts li {
 .bot-card {
     border-style:none;
 }
+
+.ml-card{
+    margin-top:50px;
+}
+
+.web-card{
+    padding: 5px;
+    margin-top:80px;
+}
+
+.mobile-div{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.mobile-card{
+    padding-top:10px;
+    width: 18rem;
+}
