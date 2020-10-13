@@ -17,12 +17,12 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-.la {
+.nav-icon {
     text-decoration: none;
     color: #999;
 }
 
-.lat {
+.nav-icon-cur {
     text-decoration: none;
     color: #333;
 }
@@ -36,7 +36,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-.pp {
+.briefIntro {
     font-size: 1.5em;
     color: #333;
 }
@@ -63,6 +63,11 @@ ul.posts li {
     padding: 5px;
 }
 
+.web-title{
+    padding-top:10px;
+    text-align: center;
+}
+
 .mobile-div{
     display:flex;
     flex-wrap:wrap;
@@ -71,4 +76,8 @@ ul.posts li {
 .mobile-card{
     padding:5px;
     margin:5px;
+}
+
+.mobile-title{
+    padding-top:5px
 }
